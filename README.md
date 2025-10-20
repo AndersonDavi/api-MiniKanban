@@ -4,7 +4,7 @@ Esta API REST construida con `express` permite administrar una lista de tareas a
 
 ## Requisitos previos
 - **Node.js** v18 o superior.
-- **MySQL Server** accesible desde el host donde se ejecutará la API.
+- **MySQL Server** running locally on your machine.
 
 ## Instalación
 - **Clonar el repositorio** y situarse en el directorio del proyecto.

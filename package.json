@@ -1,19 +1,25 @@
 {
-  "name": "node",
+  "name": "api-minikanban",
   "version": "1.0.0",
-  "description": "",
+  "description": "API REST para MiniKanban con Express y Sequelize",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["express", "sequelize", "mysql", "kanban", "api"],
+  "author": "Ricardo Pastrana",
+  "license": "MIT",
   "type": "commonjs",
   "dependencies": {
     "cors": "^2.8.5",
-    "espress": "^0.0.0",
+    "dotenv": "^16.4.5",
     "express": "^5.1.0",
-    "mysql2": "^3.15.2"
+    "mysql2": "^3.15.2",
+    "sequelize": "^6.37.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   }
 }
